@@ -95,5 +95,6 @@ h2{
     .button:hover{
          height: 100px;
          width: 100px;
+        border-color:black;
     }
 }
