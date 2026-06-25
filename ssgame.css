@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    background-image: url("image.jpg");
+    background-size: cover;
+    color: black;
+    font-weight: 900;
+    text-shadow: 0px 0px 30px white,2px 0px 4px red,2px 0px 4px red,-1px 4px 6px blue,-1px 4px 6px blue;
+    font-size: 50px;
+}
+
+h2{
+    text-shadow: 0 0 20px red,0 0 20px blue;
+    font-weight: 550;
+    line-height: 2;
+    color: white;
+    
+}
+
+.btn-container{
+    margin: 50px;
+}
+.button{
+    height: 150px;
+    width: 150px;
+    border:5px solid black;
+    border-radius: 50px;
+    margin:15px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+    height: 140px;
+    width: 140px;
+    
+}
+
+
+
+.red{
+    box-shadow: 0px 0px 20px red,0 0 20px red;
+    background-color: red;
+}
+.red:hover{
+    box-shadow: 0 0 30px red,0 0 40px red;
+    border:5px solid red;
+}
+
+.green{
+   box-shadow: 0px 0px 20px greenyellow,0 0 20px greenyellow;
+   background-color: greenyellow;
+}
+.green:hover{
+    box-shadow: 0 0 30px greenyellow,0 0 40px greenyellow;
+    border:5px solid greenyellow;
+}
+
+.yellow{
+    box-shadow: 0px 0px 20px yellow,0 0 20px yellow;
+    background-color: yellow;
+}
+.yellow:hover{
+    box-shadow: 0 0 30px yellow,0 0 40px yellow;
+    border:5px solid yellow;
+}
+
+.blue{
+    box-shadow: 0px 0px 20px skyblue,0 0 20px skyblue;
+    background-color: skyblue;
+} 
+.blue:hover{
+    box-shadow: 0 0 30px skyblue,0 0 40px skyblue;
+    border:5px solid skyblue;
+}
+
+.flash{
+    background-color: white;
+    box-shadow: 0 0 30px white;
+    border-color: white;
+}
+
+.wrong{
+    background-image: none;
+    background-color: red;
+}
+
+@media(max-width:500px){
+    .button{
+        height: 100px;
+        width: 100px;
+        margin:5px;
+        border-radius: 30px;
+    }
+    .button:hover{
+        height: 90px;
+        width: 90px;
+    }
+}
