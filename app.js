@@ -8,14 +8,17 @@ let h2=document.querySelector("h2");
 
 let btns=["red","green","yellow","blue"];
 
-document.addEventListener("keypress",function(){
+function starthandle(){
     if(started==false){
         console.log("started");
         started=true;
 
         levelup();
     }
-});
+}
+
+document.addEventListener("keypress",starthandle);
+document.addEventListener("touchstart", starthandle);
 
 function btnFlash(btn) {
     btn.classList.add("flash");
